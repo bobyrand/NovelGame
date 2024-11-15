@@ -294,7 +294,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scriptName: 
-  scriptText: '@hideUI MapButton
+  scriptText: '@hideUI QuestButton
+
+    @hideUI MapButton
 
     @showUI MapUI'
   playOnAwake: 0

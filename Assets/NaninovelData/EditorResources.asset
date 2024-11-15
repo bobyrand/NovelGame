@@ -225,6 +225,9 @@ MonoBehaviour:
     - name: BG_Sad
       pathPrefix: Audio
       guid: 5f1579e1363a30946a8b4ee1c3875c3b
+    - name: openDoor
+      pathPrefix: Audio
+      guid: 1fe905072b2d6c74998ef421724b6d48
   - Id: Characters/7f3512c9-59a2-4315-bf85-961f5d07e78b
     Resources:
     - name: Dafault
@@ -235,3 +238,6 @@ MonoBehaviour:
     - name: CG/NoName
       pathPrefix: Unlockables
       guid: e25728d451d73c148b20238615f4c0f8
+    - name: CG/Alex
+      pathPrefix: Unlockables
+      guid: 14006d6b017a0bb458e060d68fe0a303

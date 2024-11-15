@@ -41,9 +41,17 @@ public class QuestUIManager : MonoBehaviour
         {
             questText.text = "Отнести (Очки и указку) NoName";
         }
+        else if (questValue == "CG")
+        {
+            questText.text = "Проверить CG и увидеть свой подарок!)";
+        }
+        else if (questValue == "CG")
+        {
+            questText.text = "Проверить CG и увидеть свой подарок!)";
+        }
         else
         {
-            questText.text = "Нет активных квестов";
+            questText.text = "";
         }
     }
 }

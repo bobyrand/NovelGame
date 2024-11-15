@@ -62,6 +62,8 @@ Alex: Go away, I don't want to talk to you.
 @char Alexa
 Alex: I knew that you would choose me!)
 Alex: Let's go have some fun?)
+@unlock CG/Alex
+@set Quest="CG"
 @showUI QuestButton
 @showUI MapButton
 ...

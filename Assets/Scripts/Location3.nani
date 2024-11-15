@@ -1,18 +1,20 @@
-#Location3
+# Location3
 @back House
-@hideChars 
+@hideChars
 @if Key
-#EnterHouse
+# EnterHouse
+@stopBgm
+@sfx openDoor
 Oh, here are the glasses and the pointer!
 @set Quest="Quest3"
-@set Items=true 
+@set Items=true
 I'll leave the key here and slam the door...
-@set Key=false 
+@set Key=false
 @showUI MapButton
+@showUI QuestButton
 @stop
 @else
-#CantEnterHouse
+# CantEnterHouse
 I can't get into this door without a key....
 @showUI MapButton
 @stop
-

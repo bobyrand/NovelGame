@@ -67,10 +67,11 @@ Alexa: But I really liked them, and now I dont want to part with them...
 NoName: What should I do now???
 Alexa: Give it to me, you promised!
 Alexa: Well, think about it, decide...)
-
+@hideUI QuestButton
 @choice "Give NoName" set:Choise=1 set:Items=false goto:.Location1.NoName
 @choice "Give Alex" set:Choise=2 set:Items=false  goto:.Location1.Alex
 @choice "Keep it for yourself" set:Choise=3 set:Items=false  goto:.Location1.NoBody
+@set Quest="Quest5"
 ...
 @stop
 #Location1.NoName
@@ -81,12 +82,15 @@ Alexa: Well, think about it, decide...)
 NoName: Thank you!
 NoName: Here's your prize!)
 @unlock CG/NoName
+@set Quest="CG"
 @showUI QuestButton
 @showUI MapButton
 ...
 @stop
 
 #Location1.Alex
+@stopBgm
+@bgm BG_Sad
 @hideChars
 @back Road
 @char NoName
@@ -98,6 +102,8 @@ NoName: Bye!!!
 @stop
 
 #Location1.NoBody
+@stopBgm
+@bgm BG_Sad
 @hideChars
 @back Road
 @char NoName
