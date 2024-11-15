@@ -1,0 +1,137 @@
+#Location1
+@if !Items&&Choise=0
+@goto .Location1.1
+@elseIf Items
+@goto .Location1.3
+@elseIf Choise=1
+@goto .Location1.NoName
+@elseIf Choise=2
+@goto .Location1.Alex
+@elseIf Choise=3
+@goto .Location1.NoBody
+
+
+#Location1.1
+@if haveQuest
+@goto .CheckItems
+@else
+@bgm BG_Relax
+@back Road
+@char NoName
+@set Key=false
+@set haveQuest=true
+NoName: Exactly!{$PlayerName}, how could I forget...?
+NoName: Long time no see, as you can see, Ive already forgotten your name)
+NoName: Can you help me please?
+@choice "Of course! With pleasure!" set:Quest="Quest1"  goto:.Location1.2 
+@choice "No, I'm busy..." goto:.EndGameNo
+@stop
+
+
+
+
+
+#Location1.2
+@back Road
+@char NoName
+NoName: Great, go to Alexa in the City and get my glasses and pointer from her :3
+NoName: a reward will await you ;)
+@showUI QuestButton
+@showUI MapButton
+@stop
+
+
+
+
+#Location1.3
+@if Choise=0
+    @goto .Choise
+@elseIf Choise=1
+    @goto .Location1.NoName
+@elseIf Choise=2
+    @goto .Location1.Alex
+@elseIf Choise=3
+    @goto .Location1.NoBody
+@endif
+
+#Choise
+@stopBgm
+@bgm BG_Relax
+@back Road
+@char NoName
+@char Alexa
+NoName: Oh Alexa, what are you doing here???
+Alexa: I was thinking, I still need Glasses and a Pointer, with them I could play with you ;)
+NoName: Oh you! I gave them to you for a while!!!
+Alexa: But I really liked them, and now I dont want to part with them...
+NoName: What should I do now???
+Alexa: Give it to me, you promised!
+Alexa: Well, think about it, decide...)
+
+@choice "Give NoName" set:Choise=1 set:Items=false goto:.Location1.NoName
+@choice "Give Alex" set:Choise=2 set:Items=false  goto:.Location1.Alex
+@choice "Keep it for yourself" set:Choise=3 set:Items=false  goto:.Location1.NoBody
+...
+@stop
+#Location1.NoName
+@hideChars
+@back Road
+@char NoName
+
+NoName: Thank you!
+NoName: Here's your prize!)
+@unlock CG/NoName
+@showUI QuestButton
+@showUI MapButton
+...
+@stop
+
+#Location1.Alex
+@hideChars
+@back Road
+@char NoName
+NoName: I didn't expect this from you!!!
+NoName: Bye!!!
+@showUI QuestButton
+@showUI MapButton
+...
+@stop
+
+#Location1.NoBody
+@hideChars
+@back Road
+@char NoName
+NoName: I didn't expect this from you!!!
+NoName: Bye!!!
+@showUI QuestButton
+@showUI MapButton
+...
+@stop
+
+#CheckItems
+@stopBgm
+@bgm BG_Relax
+@back Road
+@char NoName
+NoName: Have you already brought me glasses?
+@choice "No, I'm just walking" goto:.Incoplete
+@stop
+#Incoplete
+@stopBgm
+@bgm BG_Sad
+@back Road
+@char NoName
+NoName: I'm really looking forward to it, hurry up!!!
+@showUI QuestButton
+@showUI MapButton
+@stop
+#EndGameNo
+@stopBgm
+@bgm BG_Sad
+@back Road
+@char NoName
+NoName: Well...
+NoName: In vain...
+NoName: I'll ask Juan, and then I'll give him a reward!)
+@showUI GameOver 
+@stop

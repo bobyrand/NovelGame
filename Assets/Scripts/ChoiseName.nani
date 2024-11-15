@@ -1,0 +1,14 @@
+@lock CG/NoName
+@back Road
+@bgm BG_Relax
+@set Items=false 
+@set Key=false
+@set Choise=0
+@set haveQuest=false
+@char NoName
+NoName: Hello :3
+NoName: Remind me what your name is?
+@input "PlayerName"
+NoName: ...
+@stop
+@goto Location1.Location1

@@ -1,0 +1,80 @@
+#Location2
+@bgm BG_Relax
+@back City
+@if Items&&Choise=0
+@hideChars
+Strange, it's already gone...
+@set Quest="Quest4"
+...
+@showUI MapButton
+@showUI QuestButton
+@stop
+
+@elseIf !Items&&Choise=0
+@goto .AlexaQuest
+
+@elseIf Choise=1
+@goto .Location2.NoName
+
+@elseIf Choise=2
+@goto .Location2.Alex
+
+@elseIf Choise=3
+@goto .Location2.NoBody
+# AlexaQuest
+@stopBgm 
+@hideAll
+@bgm BG_Relax
+@back City
+@char Alexa
+Alexa: Oh, hi {$PlayerName}!
+Hey, NoName sent me for glasses and a pointer!
+Alexa: Of course, they are in my house...
+Alexa: Only I lost my keys somewhere near the porch!
+Alexa: Help me find them, please!
+@showUI MiniGame
+@set Key=true 
+
+Alexa: Oh, you found them!
+Alexa: Glasses and a pointer on the nightstand...
+Alexa: Leave the key on the nightstand, I found spare keys)))
+@set Quest="Quest2"
+...
+@showUI MapButton
+@showUI QuestButton
+@stop
+#Location2.NoName
+@stopBgm 
+@hideAll
+@bgm BG_Sad
+@back City
+@char Alexa
+Alex: Go away, I don't want to talk to you.
+@showUI QuestButton
+@showUI MapButton
+...
+@stop
+#Location2.Alex
+@stopBgm 
+@hideAll
+@bgm BG_Relax
+@back City
+@char Alexa
+Alex: I knew that you would choose me!)
+Alex: Let's go have some fun?)
+@showUI QuestButton
+@showUI MapButton
+...
+@stop
+#Location2.NoBody
+@stopBgm 
+@hideAll
+@bgm BG_Sad
+@back City
+@char Alexa
+Alex: So now have fun with yourself!!!
+Alex: Bye...
+@showUI QuestButton
+@showUI MapButton
+...
+@stop

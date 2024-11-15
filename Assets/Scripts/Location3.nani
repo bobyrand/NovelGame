@@ -1,0 +1,18 @@
+#Location3
+@back House
+@hideChars 
+@if Key
+#EnterHouse
+Oh, here are the glasses and the pointer!
+@set Quest="Quest3"
+@set Items=true 
+I'll leave the key here and slam the door...
+@set Key=false 
+@showUI MapButton
+@stop
+@else
+#CantEnterHouse
+I can't get into this door without a key....
+@showUI MapButton
+@stop
+

@@ -1,0 +1,15 @@
+; English <en> to Russian <ru> localization document for # 2650f6d8
+# 2650f6d8
+; NoName: Hello :3
+NoName: Привет :3
+
+# 126010b3
+; NoName: Remind me what your name is?
+NoName: Напомни, как тебя зовут ?
+
+# 7c800c61
+; @input "PlayerName"
+
+# 68fc0fbb
+; NoName: ...
+NoName: ...

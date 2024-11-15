@@ -1,0 +1,121 @@
+; English <en> to Russian <ru> localization document for `Location1` naninovel script
+
+# 469dd7c7
+; NoName: Exactly!{$PlayerName}, how could I forget...?
+NoName: Точно! {$PlayerName}, как я мог забыть...?
+
+# 109e9330
+; NoName: Long time no see, as you can see, Ive already forgotten your name)
+NoName: Давно не виделись, как видишь, я уже забыл твое имя)
+
+# d17e4abf
+; NoName: Can you help me please?
+NoName: Ты можешь мне помочь, пожалуйста?
+
+# 4eb69f19
+; @choice "Of course! With pleasure!" set:Quest="Quest1"  goto:.Location1.2
+@choice "Конечно! С удовольствием!" set:Quest="Quest1"  goto:.Location1.2
+
+# fb048f48
+; @choice "No, I'm busy..." goto:.EndGameNo
+@choice "Нет, я занят..." goto:.EndGameNo
+
+# d07a9258
+; NoName: Great, go to Alexa in the City and get my glasses and pointer from her :3
+NoName: Отлично, отправляйся к Алексе в город и забери у нее мои очки и указку :3
+
+# bbdf691
+; NoName: a reward will await you ;)
+NoName: тебя будет ждать награда ;)
+
+# 7ba2cbff
+; NoName: Oh Alexa, what are you doing here???
+NoName: О, Алекса, что ты здесь делаешь???
+
+# a2c1cb67
+; Alexa: I was thinking, I still need Glasses and a Pointer, with them I could play with you ;)
+Alexa: Я тут подумала, мне еще нужны очки и указка, с ними я могла бы поиграть с тобой ;)
+
+# 49e12f06
+; NoName: Oh you! I gave them to you for a while!!!
+NoName: Ах ты! Я дал тебе их на время!!!
+
+# b81506a
+; Alexa: But I really liked them, and now I dont want to part with them...
+Alexa: Но они мне очень понравились, и теперь я не хочу с ними расставаться...
+
+# f3d9350a
+; NoName: What should I do now???
+NoName: Что же мне теперь делать???
+
+# f658f5a
+; Alexa: Give it to me, you promised!
+Alexa: Отдай мне их, ты же обещал!
+
+# f42483d4
+; Alexa: Well, think about it, decide...)
+Alexa: Ну, подумай, решай...)
+
+# 3712d667
+; @choice "Give NoName" set:Choise=1 set:Items=false goto:.Location1.NoName
+@choice "Отдать NoName" set:Choise=1 set:Items=false goto:.Location1.NoName
+
+# 897ec8f7
+; @choice "Give Alex" set:Choise=2 set:Items=false  goto:.Location1.Alex
+@choice "Отдать Алексе" set:Choise=2 set:Items=false  goto:.Location1.Alex
+
+# 134ff8ae
+; @choice "Keep it for yourself" set:Choise=3 set:Items=false  goto:.Location1.NoBody
+@choice "Оставить себе" set:Choise=3 set:Items=false  goto:.Location1.NoBody
+
+# 7db6f932
+; ...
+...
+
+# d0359417
+; NoName: Thank you!
+NoName: Спасибо!
+
+# dd0a7ab9
+; NoName: Here's your prize!)
+NoName: Вот твой приз!)
+
+# 7db6f932
+; ...
+...
+
+# 136ac0d9
+; NoName: I didn't expect this from you!!!
+NoName: Я не ожидал этого от тебя!!!
+
+# 712a2439
+; NoName: Bye!!!
+NoName: Пока!!!
+
+# 7db6f932
+; ...
+...
+
+# b3a8244
+; NoName: Have you already brought me glasses?
+NoName: Ты уже принес мне очки?
+
+# fc4d73f9
+; @choice "No, I'm just walking" goto:.Incoplete
+@choice "Нет, я просто гуляю" goto:.Incoplete
+
+# 99ba6b77
+; NoName: I'm really looking forward to it, hurry up!!!
+NoName: Я действительно жду, поторопись!!!
+
+# a216698f
+; NoName: Well...
+NoName: Ну...
+
+# e4e31e97
+; NoName: In vain...
+NoName: Напрасно...
+
+# 56278896
+; NoName: I'll ask Juan, and then I'll give him a reward!)
+NoName: Попрошу Хуана, и тогда награду получит он!)

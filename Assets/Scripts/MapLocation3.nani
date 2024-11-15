@@ -1,0 +1,5 @@
+@if Key
+@hideUI MapUI
+@goto Location3.Location3
+@else
+@stop

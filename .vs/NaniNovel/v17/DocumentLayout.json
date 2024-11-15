@@ -1,0 +1,183 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\LessonsUnity\\NaniNovel\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C9E870D7-E7DC-26AD-98C1-BC81B7AD96BD}|Assembly-CSharp.csproj|c:\\lessonsunity\\naninovel\\assets\\naninovel\\resources\\naninovel\\localization\\ru\\text\\defaultui.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{C9E870D7-E7DC-26AD-98C1-BC81B7AD96BD}|Assembly-CSharp.csproj|solutionrelative:assets\\naninovel\\resources\\naninovel\\localization\\ru\\text\\defaultui.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAD8E5A3-A528-6DDC-32AD-B9F8FC9D4481}|Elringus.Naninovel.Runtime.csproj|c:\\lessonsunity\\naninovel\\assets\\naninovel\\runtime\\engine\\unitylogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAD8E5A3-A528-6DDC-32AD-B9F8FC9D4481}|Elringus.Naninovel.Runtime.csproj|solutionrelative:assets\\naninovel\\runtime\\engine\\unitylogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9E870D7-E7DC-26AD-98C1-BC81B7AD96BD}|Assembly-CSharp.csproj|c:\\lessonsunity\\naninovel\\assets\\naninovel\\resources\\naninovel\\localization\\ru\\text\\locales.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{C9E870D7-E7DC-26AD-98C1-BC81B7AD96BD}|Assembly-CSharp.csproj|solutionrelative:assets\\naninovel\\resources\\naninovel\\localization\\ru\\text\\locales.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F23602C-FFE3-0606-A388-88584F4E67FD}|DTT.MinigameBase.Runtime.csproj|C:\\LessonsUnity\\NaniNovel\\assets\\dtt\\minigame base\\runtime\\level select\\levelbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F23602C-FFE3-0606-A388-88584F4E67FD}|DTT.MinigameBase.Runtime.csproj|solutionrelative:assets\\dtt\\minigame base\\runtime\\level select\\levelbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F23602C-FFE3-0606-A388-88584F4E67FD}|DTT.MinigameBase.Runtime.csproj|C:\\LessonsUnity\\NaniNovel\\assets\\dtt\\minigame base\\runtime\\level select\\levelselect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F23602C-FFE3-0606-A388-88584F4E67FD}|DTT.MinigameBase.Runtime.csproj|solutionrelative:assets\\dtt\\minigame base\\runtime\\level select\\levelselect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F23602C-FFE3-0606-A388-88584F4E67FD}|DTT.MinigameBase.Runtime.csproj|C:\\LessonsUnity\\NaniNovel\\assets\\dtt\\minigame base\\runtime\\level select\\levelselecthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F23602C-FFE3-0606-A388-88584F4E67FD}|DTT.MinigameBase.Runtime.csproj|solutionrelative:assets\\dtt\\minigame base\\runtime\\level select\\levelselecthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F23602C-FFE3-0606-A388-88584F4E67FD}|DTT.MinigameBase.Runtime.csproj|C:\\LessonsUnity\\NaniNovel\\assets\\dtt\\minigame base\\runtime\\level select\\pagination management\\pagination.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F23602C-FFE3-0606-A388-88584F4E67FD}|DTT.MinigameBase.Runtime.csproj|solutionrelative:assets\\dtt\\minigame base\\runtime\\level select\\pagination management\\pagination.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F23602C-FFE3-0606-A388-88584F4E67FD}|DTT.MinigameBase.Runtime.csproj|C:\\LessonsUnity\\NaniNovel\\assets\\dtt\\minigame base\\runtime\\level select\\pagination management\\paginationui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F23602C-FFE3-0606-A388-88584F4E67FD}|DTT.MinigameBase.Runtime.csproj|solutionrelative:assets\\dtt\\minigame base\\runtime\\level select\\pagination management\\paginationui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\LessonsUnity\\NaniNovel\\Assets\\AutoPressBtn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\AutoPressBtn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9E870D7-E7DC-26AD-98C1-BC81B7AD96BD}|Assembly-CSharp.csproj|C:\\LessonsUnity\\NaniNovel\\assets\\scripts\\questuimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9E870D7-E7DC-26AD-98C1-BC81B7AD96BD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\questuimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DefaultUI.txt",
+              "DocumentMoniker": "C:\\LessonsUnity\\NaniNovel\\Assets\\Naninovel\\Resources\\Naninovel\\Localization\\ru\\Text\\DefaultUI.txt",
+              "RelativeDocumentMoniker": "Assets\\Naninovel\\Resources\\Naninovel\\Localization\\ru\\Text\\DefaultUI.txt",
+              "ToolTip": "C:\\LessonsUnity\\NaniNovel\\Assets\\Naninovel\\Resources\\Naninovel\\Localization\\ru\\Text\\DefaultUI.txt",
+              "RelativeToolTip": "Assets\\Naninovel\\Resources\\Naninovel\\Localization\\ru\\Text\\DefaultUI.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEYAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-11-14T00:44:32.777Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Locales.txt",
+              "DocumentMoniker": "C:\\LessonsUnity\\NaniNovel\\Assets\\Naninovel\\Resources\\Naninovel\\Localization\\ru\\Text\\Locales.txt",
+              "RelativeDocumentMoniker": "Assets\\Naninovel\\Resources\\Naninovel\\Localization\\ru\\Text\\Locales.txt",
+              "ToolTip": "C:\\LessonsUnity\\NaniNovel\\Assets\\Naninovel\\Resources\\Naninovel\\Localization\\ru\\Text\\Locales.txt",
+              "RelativeToolTip": "Assets\\Naninovel\\Resources\\Naninovel\\Localization\\ru\\Text\\Locales.txt",
+              "ViewState": "AgIAAJwAAAAAAAAAAAAAALEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-11-14T00:44:03.473Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UnityLogger.cs",
+              "DocumentMoniker": "C:\\LessonsUnity\\NaniNovel\\Assets\\Naninovel\\Runtime\\Engine\\UnityLogger.cs",
+              "RelativeDocumentMoniker": "Assets\\Naninovel\\Runtime\\Engine\\UnityLogger.cs",
+              "ToolTip": "C:\\LessonsUnity\\NaniNovel\\Assets\\Naninovel\\Runtime\\Engine\\UnityLogger.cs",
+              "RelativeToolTip": "Assets\\Naninovel\\Runtime\\Engine\\UnityLogger.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T23:23:40.359Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AutoPressBtn.cs",
+              "DocumentMoniker": "C:\\LessonsUnity\\NaniNovel\\Assets\\AutoPressBtn.cs",
+              "RelativeDocumentMoniker": "Assets\\AutoPressBtn.cs",
+              "ToolTip": "C:\\LessonsUnity\\NaniNovel\\Assets\\AutoPressBtn.cs",
+              "RelativeToolTip": "Assets\\AutoPressBtn.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAUwAgAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T13:23:59.673Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LevelButton.cs",
+              "DocumentMoniker": "C:\\LessonsUnity\\NaniNovel\\Assets\\DTT\\Minigame Base\\Runtime\\Level Select\\LevelButton.cs",
+              "RelativeDocumentMoniker": "Assets\\DTT\\Minigame Base\\Runtime\\Level Select\\LevelButton.cs",
+              "ToolTip": "C:\\LessonsUnity\\NaniNovel\\Assets\\DTT\\Minigame Base\\Runtime\\Level Select\\LevelButton.cs",
+              "RelativeToolTip": "Assets\\DTT\\Minigame Base\\Runtime\\Level Select\\LevelButton.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T13:14:37.277Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LevelSelectHandler.cs",
+              "DocumentMoniker": "C:\\LessonsUnity\\NaniNovel\\Assets\\DTT\\Minigame Base\\Runtime\\Level Select\\LevelSelectHandler.cs",
+              "RelativeDocumentMoniker": "Assets\\DTT\\Minigame Base\\Runtime\\Level Select\\LevelSelectHandler.cs",
+              "ToolTip": "C:\\LessonsUnity\\NaniNovel\\Assets\\DTT\\Minigame Base\\Runtime\\Level Select\\LevelSelectHandler.cs",
+              "RelativeToolTip": "Assets\\DTT\\Minigame Base\\Runtime\\Level Select\\LevelSelectHandler.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAawD4AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T13:11:07.109Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Pagination.cs",
+              "DocumentMoniker": "C:\\LessonsUnity\\NaniNovel\\Assets\\DTT\\Minigame Base\\Runtime\\Level Select\\Pagination Management\\Pagination.cs",
+              "RelativeDocumentMoniker": "Assets\\DTT\\Minigame Base\\Runtime\\Level Select\\Pagination Management\\Pagination.cs",
+              "ToolTip": "C:\\LessonsUnity\\NaniNovel\\Assets\\DTT\\Minigame Base\\Runtime\\Level Select\\Pagination Management\\Pagination.cs",
+              "RelativeToolTip": "Assets\\DTT\\Minigame Base\\Runtime\\Level Select\\Pagination Management\\Pagination.cs",
+              "ViewState": "AgIAAGcAAAAAAAAAAAAzwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T13:10:10.122Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PaginationUI.cs",
+              "DocumentMoniker": "C:\\LessonsUnity\\NaniNovel\\Assets\\DTT\\Minigame Base\\Runtime\\Level Select\\Pagination Management\\PaginationUI.cs",
+              "RelativeDocumentMoniker": "Assets\\DTT\\Minigame Base\\Runtime\\Level Select\\Pagination Management\\PaginationUI.cs",
+              "ToolTip": "C:\\LessonsUnity\\NaniNovel\\Assets\\DTT\\Minigame Base\\Runtime\\Level Select\\Pagination Management\\PaginationUI.cs",
+              "RelativeToolTip": "Assets\\DTT\\Minigame Base\\Runtime\\Level Select\\Pagination Management\\PaginationUI.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwBwAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T13:09:55.067Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LevelSelect.cs",
+              "DocumentMoniker": "C:\\LessonsUnity\\NaniNovel\\Assets\\DTT\\Minigame Base\\Runtime\\Level Select\\LevelSelect.cs",
+              "RelativeDocumentMoniker": "Assets\\DTT\\Minigame Base\\Runtime\\Level Select\\LevelSelect.cs",
+              "ToolTip": "C:\\LessonsUnity\\NaniNovel\\Assets\\DTT\\Minigame Base\\Runtime\\Level Select\\LevelSelect.cs",
+              "RelativeToolTip": "Assets\\DTT\\Minigame Base\\Runtime\\Level Select\\LevelSelect.cs",
+              "ViewState": "AgIAAHkAAAAAAAAAAAAjwIgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T13:08:40.384Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "QuestUIManager.cs",
+              "DocumentMoniker": "C:\\LessonsUnity\\NaniNovel\\Assets\\Scripts\\QuestUIManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\QuestUIManager.cs",
+              "ToolTip": "C:\\LessonsUnity\\NaniNovel\\Assets\\Scripts\\QuestUIManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\QuestUIManager.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAqwCkAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T17:14:59.455Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
